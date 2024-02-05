@@ -36,4 +36,6 @@ create typescript compiler configuration file: tsconfig.json
 tsc --init
 ```
 
+## System architecture with deployment
 
+![Architecture](./architecture.png)
