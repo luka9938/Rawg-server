@@ -14,3 +14,5 @@ const todoSchema = new mongoose.Schema({
     default: Date.now,
   },
 });
+
+export default mongoose.model("Todo", todoSchema); //todos collection in MongoDB
